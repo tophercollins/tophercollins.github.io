@@ -4,7 +4,7 @@
 
 ### Category Name 1 
 
-DnDwithToph.com(/sample_page)
+[DnDwithToph.com](https://dev.dndwithtoph.com/)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
