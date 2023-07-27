@@ -4,7 +4,7 @@
 
 ### Machine Learning & Data Science
 
-[DnD with Toph Accounts Review & Summary] (/pdf/sample_presentation.pdf)
+[DnD with Toph Accounts Review & Summary](/pdf/sample_presentation.pdf)
 * Utilising Pandas, Numpy and Matplotlib
 
 ---
