@@ -1,11 +1,10 @@
-title: John Doe # your name (or website title) here
-logo: "/images/logo.png?raw=true" # your photo (or logo) here
+title: Topher Collins # your name (or website title) here
+logo: "/images/topher.jpeg?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  First description 
+  Aspiring software developer with a strong foundation in Python, Flask, Machine Learning, and Data Science.
+  Eager to contribute to dynamic projects by utilizing my knowledge and skills in software development and knack for problem-solving.
   <br><br>
-  Second description 
-  <br><br>
-  <a href="https://www.linkedin.com/in/example/">View My LinkedIn Profile</a> 
+  <a href="https://www.linkedin.com/in/topher-collins-47419555/">View My LinkedIn</a> 
   
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
