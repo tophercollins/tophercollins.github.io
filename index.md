@@ -2,17 +2,20 @@
 
 ---
 
-### Machine Learning & Data Science
+### Data Science
 
-[DnD with Toph Accounts Review & Summary](/pdf/sample_presentation.pdf)
-* Utilising Pandas, Numpy and Matplotlib
+[DnD with Toph Financial Assessment](/pdf/sample_presentation.pdf)
+* Utilising **Pandas**, **Numpy** and **Matplotlib**
 
 ---
 
 ### Python
 
 [DnDwithToph.com](https://dev.dndwithtoph.com/)
-* Flask framework with SQLite database management
+* **Flask** framework with **SQLAlchemy** database management
+* User Authentication and Session Managment
+* User-Generated Content following CRUD principles
+* Production Server Deployment with **Gunicorn** and **Git** Version Control
   
 <img src="images/PortfolioDnD.png?raw=true"/>
 
