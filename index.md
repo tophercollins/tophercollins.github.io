@@ -24,7 +24,7 @@
 <img src="images/PortfolioDnD.png?raw=true"/>
 
 ---
-[Zombie Survival Game](https://github.com/tophercollins/zombie-survival/)
+[Zombie Survival Game](/zombie-survival.md/)
 * Developed a Python-based Zombie Survival Game, the mechanics involve managing resources, mission outcomes, and end-of-day round Zombie attacks.
 * **Object-oriented programming** in Python to create Class Models for Camp, Locations, and Players.
 * Utilized smaller functions for specific game mechanics and larger functions to implement and run game flow, mission outcomes, and end-of-round events.
