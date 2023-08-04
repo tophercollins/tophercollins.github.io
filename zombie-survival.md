@@ -1,8 +1,6 @@
 # Zombie Survival
  A simple python text-based game of survival, resource management and strategic deision making.
 
- [See Code](https://github.com/tophercollins/zombie-survival)
-
  ## Game Overview
  Zombie Survival is a game designed for 1 to 4 players, where each player is a member of a camp collecting resource and fighting against zombie attacks.
  The objective is survive for ten days by gathering resource on scavenging missions during the day and defending against zombie attacks during the night.
