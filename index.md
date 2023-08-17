@@ -12,7 +12,7 @@ Conducted in-depth **feature analysis** and **model evaluation**.
 Fine-tuned hyperparameters of the best performing classfier through manual tuning, **RandomizedSearchCV** and **GridSearchCV**.
 Achieved an **accuracy of 67.25%** in predicting character races, improving on **51.8%** from the initial dataset.
 
-<img src="images/Model-Baseline-Comparison.png?raw=true"/ width=100px>
+<img src="images/Model-Baseline-Comparison.png?raw=true"/>
 <img src="images/RF-N-Estimators.png?raw=true"/>
 <img src="images/RF-CV-Metrics.png?raw=true"/>
 
