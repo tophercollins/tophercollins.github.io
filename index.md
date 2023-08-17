@@ -6,13 +6,12 @@
 
 [Dungeons & Dragons Race Classification](/dnd-race-classification.md)
 
-Utilized **Machine Learning** techniques with **Scikit-learn** to predict character races based on ability scores and features from a Dungeons & Dragons dataset.
-Explored various models for selection, **Random Forest**, **Logistic Regression**, **Support Vector Classifier (SVC)**, **K-Nearest Neighbors (KNN)**, and **AdaBoost Classifier**.
-Conducted in-depth **feature analysis** and **model evaluation**.
-Fine-tuned hyperparameters of the best performing classfier through manual tuning, **RandomizedSearchCV** and **GridSearchCV**.
-Achieved an **accuracy of 67.25%** in predicting character races, improving on **51.8%** from the initial dataset.
-
+* Utilized **Machine Learning** techniques with **Scikit-learn** to predict character races based on ability scores and features from a Dungeons & Dragons dataset.
+* Explored various models for selection, **Random Forest**, **Logistic Regression**, **Support Vector Classifier (SVC)**, **K-Nearest Neighbors (KNN)**, and **AdaBoost Classifier**.
 <img src="images/Model-Baseline-Comparison.png?raw=true"/>
+* Conducted in-depth **feature analysis** and **model evaluation**.
+* Fine-tuned hyperparameters of the best performing classfier through manual tuning, **RandomizedSearchCV** and **GridSearchCV**.
+* Achieved an **accuracy of 67.25%** in predicting character races, improving on **51.8%** from the initial dataset.
 <img src="images/RF-N-Estimators.png?raw=true"/>
 <img src="images/RF-CV-Metrics.png?raw=true"/>
 
