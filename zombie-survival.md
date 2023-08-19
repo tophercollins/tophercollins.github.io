@@ -1,4 +1,4 @@
-# Zombie Survival > [Go to Project](https://github.com/tophercollins/zombie-survival)
+# Zombie Survival > [Go to project](https://github.com/tophercollins/zombie-survival)
 
  A simple python text-based game of survival, resource management and strategic deision making.
 
