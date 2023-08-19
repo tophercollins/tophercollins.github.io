@@ -1,25 +1,35 @@
-## Financial Analysis of DnD with Toph
+# DnDwithToph Exploratory Data Analysis
 
-**Project description:**
+This analysis aims to enhance the data collected from [DnDwithToph.com](https://dndwithtoph.com/) earnings of running adventures on [Outschool.com](https://outschool.com/) and provide valuable insights. The project involves data preprocessing, transformation, observations, and visualisations. Below is an overview of the steps taken in the analysis.
 
-This project involves a detailed financial analysis of 'DnD with Toph,' a teaching and gaming service. The analysis utilised Python and Pandas, allowing for data manipulation, cleaning, and visualization. The focus was on understanding the company's earnings, identifying outliers, calculating mean and total values for different adventures, and optimizing session scheduling for maximum efficiency.
+## Steps
 
-### 1. Analyzing Outschool Earnings
+### Improve Data Quality
 
-The primary objective of this analysis was to gain insights into the financial performance of 'DnD with Toph' through an in-depth examination of Outschool earnings data. By assessing trends and patterns, the project aimed to understand factors influencing revenue and student enrollments.
+- Convert CSV data into a Pandas DataFrame.
+- Remove irrelevant or unimportant data.
+- Convert appropriate data into numerical format for improved usability.
+- Rename columns and features for better clarity.
+- Introduce new columns and features to enhance analysis.
 
-### 2. Optimizing Session Scheduling
+### Observations
 
-Using the calculated payout per hour metric, the analysis focused on optimizing session scheduling for different adventures. This allowed for better time management and resource allocation, ultimately leading to increased efficiency and potentially higher earnings.
+- identify outliers in the data.
+- Summarize key aspects of the dataset.
+- Analyse trends and patterns, including revenue and student enrollments.
 
-### 3. Data Visualization
+### Visualistions
 
-To present the findings effectively, various data visualization techniques were utilized. Visualizations such as line charts, bar graphs, and pie charts were employed to showcase the financial trends and important insights.
+- Create visualisations using the Matplotlib and Seaborn libraries.
+- Present findings to showcase financial trends and significant insights.
+  
+### Save Data
 
-### 4. Business Insights
+- Save the cleaned and transformed data for future analysis.
 
-The financial analysis provided valuable business insights into the performance of different adventures offered by 'DnD with Toph.' By identifying profitable and less profitable ventures, the company can make informed decisions regarding resource allocation, marketing strategies, and future adventure development.
+### Conclusion
 
-The financial analysis of 'DnD with Toph' serves as a valuable resource for the company's management and stakeholders to make data-driven decisions and achieve sustainable growth in the long term.
+- By optimizing session scheduling, the analysis provided insights into optimal time slots that have the potential to improve earnings.
+- The identification of the most effective and consistent adventures to prioritize is another valuable outcome.
 
-[Back to Portfolio](https://tophercollins.github.io/)
+For more information about 'DnD with Toph', visit [DnDwithToph.com](https://dndwithtoph.com/).
