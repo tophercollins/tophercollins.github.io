@@ -1,4 +1,4 @@
-# Predicting a DND Character Race using Machine Learning Classifier Models
+# DnD Race Classification > [Go to project](https://github.com/tophercollins/dnd-race-classification)
 
 This project involves using Scikit-learn and Pandas to create a machine learning model for a multiple classification problem aimed at predicting the race of a Dungeons & Dragons character based on their ability scores and general features.
 
