@@ -1,5 +1,4 @@
-# DnDwithToph Exploratory Data Analysis
-# [See Project](https://github.com/tophercollins/dndwithtoph-eda)
+# DnDwithToph Exploratory Data Analysis :: [Go to project](https://github.com/tophercollins/dndwithtoph-eda)
 
 This analysis aims to enhance the data collected from [DnDwithToph.com](https://dndwithtoph.com/) earnings of running adventures on [Outschool.com](https://outschool.com/) and provide valuable insights. The project involves data preprocessing, transformation, observations, and visualisations. Below is an overview of the steps taken in the analysis.
 
