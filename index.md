@@ -17,7 +17,7 @@
 <img src="images/RF-CV-Metrics.png?raw=true"/>
 
 ---
-[Financial Report for DnD with Toph](/financial_analysis.md)
+[DnD with Toph Exploratory Data Analysis](/dndwithtoph-eda.md)
 * A financial assessment and report for 'DnD with Toph', an online Dungeons & Dragons adventure service, using Python and **Pandas** to clean, transform, and analyze the data.
 * Used data to observe growth and profit trends to optimise future scheduling and projects.
 * Skills include **Data Manipulation & Analysis** using Python & Pandas and **Data Visualization** with **Matplotlib**.
