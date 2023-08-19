@@ -1,35 +1,42 @@
-# Zombie Survival        [See Code](https://github.com/tophercollins/zombie-survival)
+# Zombie Survival > [Go to Project](https://github.com/tophercollins/zombie-survival)
+
  A simple python text-based game of survival, resource management and strategic deision making.
 
 ## Game Overview
+
 Zombie Survival is a game designed for 1 to 4 players, where each player is a member of a camp collecting resource and fighting against zombie attacks.
 The objective is survive for ten days by gathering resource on scavenging missions during the day and defending against zombie attacks during the night.
 Any players remaining at the end of the ten days win.
 
 ## Programming
+
 The game was built using fundamentals of Object-Orientated Programming.
 Models are created for Players, Locations and Camp which each inherits resource attributes from an overall GameEntity class and then adds specific attributes for each class. 
 Design operates from small functions for gameplay mechanics, larger functions to operate the 4 main stages of gameplay and a master function to runs the game loop.
 
-### Computer Players & Decision Making
-#### Analysing Best Choices
+## Computer Players & Decision Making
+
+### Analysing Best Choices
+
 * Introduced best_resource() and best_location() functions utilising built-in Python getattr() to judge which is optimal resource to collect. 
 
-#### Randomness
+### Randomness
+
 * Integrated a random component to computer decisions so they are not always playing optimal
 
-#### Computer Player Personalities
+### Computer Player Personalities
+
 * Created different personality to create variety in computer decisions (generous, cautious & greedy).
+  
+## Resource Management
 
-## Game Features
-
-### Resource Management
 Players must scavenge and manage 3 key resources:
 * Food: Each player must consume 1 food token per day.
 * Medicine: Used to heal injuries received on missions or illess in the camp.
 * Weapons: Used to fight against zombie attacks during the night, and aid in settling conflicts between players.
 
 ## Players
+
 * At the start of the game the players begin with 1 weapon token
 * Players can hold a maximum of 8 resources at one time.
 * Player may suffer injuries/illness from missions/problems at camp.
@@ -42,6 +49,7 @@ Health Chart:
 * 0: Dead - Player is out.
 
 ## Camp
+
 At the start of the game the camp begins with:
 * 10 food tokens
 * 2 medicine tokens
@@ -53,10 +61,12 @@ If the camp don't not have sufficent resources then player may use their own per
 Player may choose to help other players who do not have personal resources, but do not have to.
 
 ## Locations
+
 There are 12 game locations with a variety of different resources.
 At the beginning of the game, locations are randomly selected as Easy (4 locations), Medium (4 locations) and Hard (4 locations).
 
 ### Missions
+
 During the day players choose locations of varying difficulty to collect resources. Outcomes are decided by rolling of a d6 dice.
 * Easy: A player rolls 2 d6s and takes the highest roll
 * Medium: A player rolls a single d6
@@ -71,6 +81,7 @@ Mission Roll Chart:
 6. Perfect - Player may collect as many resources as they can carry and also collect one extra resource of their choice.
 
 ### End of Day
+
 At the end of the day each player must consume 1 food token or lose 1 health point.
 
 Zombie Attacks - If zombies attack player must fight back with weapons, a weapon token must be used for every zombie that attacks.
