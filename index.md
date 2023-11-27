@@ -2,7 +2,17 @@
 
 ---
 
-### Data Science
+### Data Science & Machine Learning
+
+[Smoker Binary Classification using Bio Signals](/smoker-binary-classification.md)
+
+* Created a Neural Network Stacking Classifier using Scikeras KerasClassifier and Scikit-learn's StackingClassifier.
+* Used analysis of feature outliers and distrubtion to improve feature engineering.
+<img src="images/sbc-smoking-correlation.png?raw=true"/>
+
+* Combined Catboost, XGBoost, LightGBM and Random Forest Classifier models to create a balanced ensemble model.
+* Utilized Tensorflow 2.0 Sequential Neural Network for improved ensemble weights.
+* Achieved a final score of 0.87583 (compared with best of 0.87946), placing 283 out of 1910 submisions.
 
 [Dungeons & Dragons Race Classification](/dnd-race-classification.md)
 
