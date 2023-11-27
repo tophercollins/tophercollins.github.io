@@ -8,7 +8,7 @@
 
 * Created a Neural Network Stacking Classifier using Scikeras KerasClassifier and Scikit-learn's StackingClassifier.
 * Used analysis of feature outliers and distrubtion to improve feature engineering.
-<img src="images/sbc-smoking-correlation.png?raw=true"/>
+<img src="images/outlier_distribution.png?raw=true"/>
 
 * Combined Catboost, XGBoost, LightGBM and Random Forest Classifier models to create a balanced ensemble model.
 * Utilized Tensorflow 2.0 Sequential Neural Network for improved ensemble weights.
