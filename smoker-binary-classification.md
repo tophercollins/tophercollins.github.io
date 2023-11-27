@@ -1,4 +1,4 @@
-# Smoker Binary Prediction using Bio-Signals > [Go to project]([https://github.com/tophercollins/dndwithtoph-eda](https://github.com/tophercollins/smoker-binary-prediction))
+# Smoker Binary Prediction using Bio-Signals > [Go to project]([https://github.com/tophercollins/smoker-binary-prediction])
 
 ## Overview:
 This notebook analyses the 'Binary Prediction of Smoker Status using Bio-Signals' dataset from the Kaggle Plagounded Series - Season 3, Episode 24. Link below.
