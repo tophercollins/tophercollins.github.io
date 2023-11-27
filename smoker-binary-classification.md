@@ -1,9 +1,9 @@
-# Smoker Binary Prediction using Bio-Signals > [Go to project]([https://github.com/tophercollins/smoker-binary-prediction])
+# Smoker Binary Prediction using Bio-Signals > [Go to project](https://github.com/tophercollins/smoker-binary-prediction)
 
 ## Overview:
 This notebook analyses the 'Binary Prediction of Smoker Status using Bio-Signals' dataset from the Kaggle Plagounded Series - Season 3, Episode 24. Link below.
 
-[https://www.kaggle.com/competitions/playground-series-s3e24/overview]
+[https://www.kaggle.com/competitions/playground-series-s3e24/overview](https://www.kaggle.com/competitions/playground-series-s3e24/overview)
 
 ### Aim:
 Use binary classification to predict a patient's smoking status given information about various other health indicators.
