@@ -1,4 +1,16 @@
-## Portfolio
+# Portfolio
+
+## Projects
+Data Science & Machine Learning
+- [Airbnb Price Regression using Neural Network](/#airbnb)
+- [Smoker Status Classification with Gradient Boosting Trees and Ensemble Stacking](/#smoker)
+- [Dungeons & Dragons Race Classification using Scikit-learn](/#dnd)
+
+Web Developer
+- [DnDwithToph.com](/#dndwithtoph)
+
+Other
+- [Zombie Survival Game](/#zombie)
 
 ---
 
