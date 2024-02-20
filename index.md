@@ -5,9 +5,9 @@
 - [Airbnb Price Regression using Tensorflow Neural Network](/#airbnb)
 - [Smoker Status Classification with Gradient Boosting Trees and Ensemble Stacking](/#smoker)
 - [Dungeons & Dragons Race Classification using Scikit-learn](/#dnd)
-- [DnDwithToph Exploratory Data Analysis](/#eda)
 
 **Other**
+- [DnDwithToph Exploratory Data Analysis](/#eda)
 - [DnDwithToph.com](/#dndwithtoph)
 - [Zombie Survival Game](/#zombie)
 
