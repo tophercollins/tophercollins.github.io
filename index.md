@@ -12,8 +12,8 @@
 - [Zombie Survival Game](/#zombie)
 
 ---
-
 <div id='airbnb'></div>
+
 ### Data Science & Machine Learning
 
 [Airbnb Price Regression using Tensorflow Neural Network](/airbnb-price-regression.md)
@@ -51,8 +51,8 @@
 <img src="images/RF-CV-Metrics.png?raw=true"/>
 
 ---
-
 <div id='eda'></div>
+
 ### Python
 
 [DnD with Toph Exploratory Data Analysis](/dndwithtoph-eda.md)
