@@ -13,14 +13,17 @@
 
 ---
 
-### Data Science & Machine Learning
 <div id='airbnb'></div>
-[Airbnb Price Regression using Tensorflow Neural Network](/airbnb-price-regression.md)
-- One
-- Two
+### Data Science & Machine Learning
 
----
+[Airbnb Price Regression using Tensorflow Neural Network](/airbnb-price-regression.md)
+- Created a Neural Network to predict Airbnb stay prices.
+- Explored Tensorflow documentation for optimal loading of Pandas DataFrame data.
+- Normalised numerical data for efficent model processing and learning.
+
 <div id='smoker'></div>
+---
+
 [Smoker Status Binary Classification with Gradient Boosting Trees and Ensemble Stacking](/smoker-binary-classification.md)
 
 - Created a Neural Network Stacking Classifier using Scikeras KerasClassifier and Scikit-learn's StackingClassifier.
@@ -32,8 +35,8 @@
 - Utilized Tensorflow 2.0 Sequential Neural Network for improved ensemble weights.
 - Achieved a final score of 0.87583 (compared with best of 0.87946), placing 283 out of 1910 submisions.
 
----
 <div id='dnd'></div>
+---
 
 [Dungeons & Dragons Race Classification](/dnd-race-classification.md)
 
@@ -48,7 +51,9 @@
 <img src="images/RF-CV-Metrics.png?raw=true"/>
 
 ---
+
 <div id='eda'></div>
+### Python
 
 [DnD with Toph Exploratory Data Analysis](/dndwithtoph-eda.md)
 - A financial assessment and report for 'DnD with Toph', an online Dungeons & Dragons adventure service, using Python and **Pandas** to clean, transform, and analyze the data.
@@ -57,10 +62,10 @@
 
 <img src="images/OptimalTimeslot.png?raw=true"/>
 
----
 
-### Python
+
 <div id='dndwithtoph'></div>
+---
 
 [DnDwithToph.com](https://dev.dndwithtoph.com/)
 - **Flask** framework with **SQLAlchemy** database management
@@ -70,8 +75,8 @@
   
 <img src="images/PortfolioDnD.png?raw=true"/>
 
+<div id='zombie'></div>
 ---
-<div id='zombie'></div>d
 
 [Zombie Survival Game](/zombie-survival.md/)
 - Developed a Python-based Zombie Survival Game, the mechanics involve managing resources, mission outcomes, and end-of-day round Zombie attacks.
