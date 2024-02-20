@@ -12,6 +12,7 @@
 - [Zombie Survival Game](/#zombie)
 
 ---
+
 <div id='airbnb'></div>
 
 ### Data Science & Machine Learning
