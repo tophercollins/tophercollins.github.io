@@ -5,19 +5,22 @@ Data Science & Machine Learning
 - [Airbnb Price Regression using Neural Network](/#airbnb)
 - [Smoker Status Classification with Gradient Boosting Trees and Ensemble Stacking](/#smoker)
 - [Dungeons & Dragons Race Classification using Scikit-learn](/#dnd)
-
-Web Developer
-- [DnDwithToph.com](/#dndwithtoph)
+- [DnDwithToph Exploratory Data Analysis](/#eda)
 
 Other
+- [DnDwithToph.com](/#dndwithtoph)
 - [Zombie Survival Game](/#zombie)
 
 ---
 
 ### Data Science & Machine Learning
+<p id='airbnb'>
 
-<p id='dnd'>
-**Smoker Binary Classification using Bio Signals** [See More](/smoker-binary-classification.md)
+</p>
+---
+<p id='smoker'>
+  
+[Smoker Binary Classification using Bio Signals](/smoker-binary-classification.md)
 
 * Created a Neural Network Stacking Classifier using Scikeras KerasClassifier and Scikit-learn's StackingClassifier.
 * Used analysis of feature outliers and distrubtion to improve feature engineering.
@@ -29,6 +32,8 @@ Other
 * Achieved a final score of 0.87583 (compared with best of 0.87946), placing 283 out of 1910 submisions.
 
 </p>
+---
+<p id='dnd'>
 
 [Dungeons & Dragons Race Classification](/dnd-race-classification.md)
 
@@ -42,7 +47,10 @@ Other
 <img src="images/RF-N-Estimators.png?raw=true"/>
 <img src="images/RF-CV-Metrics.png?raw=true"/>
 
+</p>
 ---
+<p id='eda'>
+
 [DnD with Toph Exploratory Data Analysis](/dndwithtoph-eda.md)
 * A financial assessment and report for 'DnD with Toph', an online Dungeons & Dragons adventure service, using Python and **Pandas** to clean, transform, and analyze the data.
 * Used data to observe growth and profit trends to optimise future scheduling and projects.
@@ -50,9 +58,11 @@ Other
 
 <img src="images/OptimalTimeslot.png?raw=true"/>
 
+</p>
 ---
 
 ### Python
+<p id='dndwithtoph'>
 
 [DnDwithToph.com](https://dev.dndwithtoph.com/)
 * **Flask** framework with **SQLAlchemy** database management
@@ -62,11 +72,15 @@ Other
   
 <img src="images/PortfolioDnD.png?raw=true"/>
 
+</p>
 ---
+<p id='zombie'>
+
 [Zombie Survival Game](/zombie-survival.md/)
 * Developed a Python-based Zombie Survival Game, the mechanics involve managing resources, mission outcomes, and end-of-day round Zombie attacks.
 * **Object-oriented programming** in Python to create Class Models for Camp, Locations, and Players.
 * Utilized smaller functions for specific game mechanics and larger functions to implement and run game flow, mission outcomes, and end-of-round events.
 * Employed **random library** and computer decision logic trees for computer-controlled players.
 
+</p>
 ---
