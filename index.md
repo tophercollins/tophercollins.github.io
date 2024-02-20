@@ -5,7 +5,6 @@
 - [Airbnb Price Regression using Tensorflow Neural Network](/#airbnb)
 - [Smoker Status Classification with Gradient Boosting Trees and Ensemble Stacking](/#smoker)
 - [Dungeons & Dragons Race Classification using Scikit-learn](/#dnd)
-
 **Other**
 - [DnDwithToph Exploratory Data Analysis](/#eda)
 - [DnDwithToph.com](/#dndwithtoph)
@@ -54,7 +53,8 @@
 ---
 
 <div id='eda'></div>
-### Python
+
+### Other
 
 [DnD with Toph Exploratory Data Analysis](/dndwithtoph-eda.md)
 - A financial assessment and report for 'DnD with Toph', an online Dungeons & Dragons adventure service, using Python and **Pandas** to clean, transform, and analyze the data.
