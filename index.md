@@ -2,7 +2,7 @@
 
 ## Projects
 Data Science & Machine Learning
-- [Airbnb Price Regression using Neural Network](/#airbnb)
+* [Airbnb Price Regression using Tensorflow Neural Network](/#airbnb)
 - [Smoker Status Classification with Gradient Boosting Trees and Ensemble Stacking](/#smoker)
 - [Dungeons & Dragons Race Classification using Scikit-learn](/#dnd)
 - [DnDwithToph Exploratory Data Analysis](/#eda)
@@ -15,12 +15,14 @@ Other
 
 ### Data Science & Machine Learning
 <p id='airbnb'>
-
+[Airbnb Price Regression using Tensorflow Neural Network](/airbnb-price-regression.md)
+  * One
+  * Two
 </p>
 ---
 <p id='smoker'>
   
-[Smoker Binary Classification using Bio Signals](/smoker-binary-classification.md)
+[Smoker Status Binary Classification with Gradient Boosting Trees and Ensemble Stacking](/smoker-binary-classification.md)
 
 * Created a Neural Network Stacking Classifier using Scikeras KerasClassifier and Scikit-learn's StackingClassifier.
 * Used analysis of feature outliers and distrubtion to improve feature engineering.
