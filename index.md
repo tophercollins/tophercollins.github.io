@@ -21,8 +21,8 @@
 - Created a Neural Network to predict Airbnb stay prices.
 - Explored Tensorflow documentation for optimal loading of Pandas DataFrame data.
 - Normalised numerical data for efficent model processing and learning.
-
 <div id='smoker'></div>
+
 ---
 
 [Smoker Status Binary Classification with Gradient Boosting Trees and Ensemble Stacking](/smoker-binary-classification.md)
@@ -35,8 +35,8 @@
 - Combined Catboost, XGBoost, LightGBM and Random Forest Classifier models to create a balanced ensemble model.
 - Utilized Tensorflow 2.0 Sequential Neural Network for improved ensemble weights.
 - Achieved a final score of 0.87583 (compared with best of 0.87946), placing 283 out of 1910 submisions.
-
 <div id='dnd'></div>
+
 ---
 
 [Dungeons & Dragons Race Classification](/dnd-race-classification.md)
@@ -52,8 +52,8 @@
 <img src="images/RF-CV-Metrics.png?raw=true"/>
 
 ---
-<div id='eda'></div>
 
+<div id='eda'></div>
 ### Python
 
 [DnD with Toph Exploratory Data Analysis](/dndwithtoph-eda.md)
@@ -62,10 +62,8 @@
 - Skills include **Data Manipulation & Analysis** using Python & Pandas and **Data Visualization** with **Matplotlib**.
 
 <img src="images/OptimalTimeslot.png?raw=true"/>
-
-
-
 <div id='dndwithtoph'></div>
+
 ---
 
 [DnDwithToph.com](https://dev.dndwithtoph.com/)
@@ -75,8 +73,8 @@
 - Production Server Deployment with **Gunicorn** and **Git** Version Control
   
 <img src="images/PortfolioDnD.png?raw=true"/>
-
 <div id='zombie'></div>
+
 ---
 
 [Zombie Survival Game](/zombie-survival.md/)
