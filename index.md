@@ -21,6 +21,9 @@
 - Created a Neural Network to predict Airbnb stay prices.
 - Explored Tensorflow documentation for optimal loading of Pandas DataFrame data.
 - Normalised numerical data for efficent model processing and learning.
+
+<img src="images/airbnb-model.png?raw=true"/>
+
 <div id='smoker'></div>
 
 ---
@@ -29,8 +32,8 @@
 
 - Created a Neural Network Stacking Classifier using Scikeras KerasClassifier and Scikit-learn's StackingClassifier.
 - Used analysis of feature outliers and distrubtion to improve feature engineering.
-<img src="images/outlier_distribution.png?raw=true"/>
-<img src="images/outlier_distribution_2.png?raw=true"/>
+<img src="images/smoker-outlier-distribution.png?raw=true"/>
+<img src="images/smoker-outlier-distribution-2.png?raw=true"/>
 
 - Combined Catboost, XGBoost, LightGBM and Random Forest Classifier models to create a balanced ensemble model.
 - Utilized Tensorflow 2.0 Sequential Neural Network for improved ensemble weights.
@@ -43,13 +46,13 @@
 
 - Utilized **Machine Learning** techniques with **Scikit-learn** to predict character races based on ability scores and features from a Dungeons & Dragons dataset.
 - Explored various models for selection, **Random Forest**, **Logistic Regression**, **Support Vector Classifier (SVC)**, **K-Nearest Neighbors (KNN)**, and **AdaBoost Classifier**.
-<img src="images/Model-Baseline-Comparison.png?raw=true"/>
+<img src="images/dnd-model-baseline-comparison.png?raw=true"/>
 
 - Conducted in-depth **feature analysis** and **model evaluation**.
 - Fine-tuned hyperparameters of the best performing classfier through manual tuning, **RandomizedSearchCV** and **GridSearchCV**.
 - Achieved an **accuracy of 67.25%** in predicting character races, improving on **51.8%** from the initial dataset.
-<img src="images/RF-N-Estimators.png?raw=true"/>
-<img src="images/RF-CV-Metrics.png?raw=true"/>
+<img src="images/dnd-rf-n-estimators.png?raw=true"/>
+<img src="images/dnd-rf-cv-metrics.png?raw=true"/>
 
 ---
 
@@ -62,7 +65,7 @@
 - Used data to observe growth and profit trends to optimise future scheduling and projects.
 - Skills include **Data Manipulation & Analysis** using Python & Pandas and **Data Visualization** with **Matplotlib**.
 
-<img src="images/OptimalTimeslot.png?raw=true"/>
+<img src="images/eda-optimal-timeslot.png?raw=true"/>
 <div id='dndwithtoph'></div>
 
 ---
@@ -73,7 +76,7 @@
 - User-Generated Content following **CRUD** principles
 - Production Server Deployment with **Gunicorn** and **Git** Version Control
   
-<img src="images/PortfolioDnD.png?raw=true"/>
+<img src="images/dndwithtoph.png?raw=true"/>
 <div id='zombie'></div>
 
 ---

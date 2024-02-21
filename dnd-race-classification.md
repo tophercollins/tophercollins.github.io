@@ -32,19 +32,19 @@ The dataset contains 10,000 samples, each with 9 input features and 1 target fea
 **Target Variable:**
 - Race (dragonborn, dwarf, elf, gnome, half-elf, half-orc, halfling, human, tiefling)
 
-<img src="images/Target-Variable-Spread.png?raw=true"/>
+<img src="images/dnd-target-variable-spread.png?raw=true"/>
 
 ### Exploratory Data Analysis
 
 Correlation matrix to visualize the relationships between features.
 
-<img src="images/Correlation-Matrix.png?raw=true"/>
+<img src="images/dnd-correlation-matrix.png?raw=true"/>
 
 The correlation heatmap showed strong relationships between height, weight, and speed, indicating their significance in predicting the character's race.
 
 Further comparison of height and weight features using a scatter plot.
 
-<img src="images/Height-vs-Weight.png?raw=true"/>
+<img src="images/dnd-height-vs-weight.png?raw=true"/>
 
 The scatter plot revealed trends in three clear groups/clusters of character sizes: small, medium, and large.
 
@@ -56,13 +56,13 @@ The scatter plot revealed trends in three clear groups/clusters of character siz
 
 3. Model Selection: Several machine learning models were evaluated, including Support Vector Classifier (SVC), K-Nearest Neighbors (KNN), Random Forest Classifier, AdaBoost Classifier, and Logistic Regression.
 
-<img src="images/Model-Baseline-Comparison.png?raw=true"/>
+<img src="images/dnd-model-baseline-comparison.png?raw=true"/>
 
 Among the baseline comparison of models, Random Forest and Logistic Regression demonstrated the highest accuracy scores.
 
 4. Model Evaluation: Initial model scores were computed and compared. Random Forest, Logistic Regression and SVC performed similarly.
 
-<img src="images/RF-N-Estimators.png?raw=true"/>
+<img src="images/dnd-rf-n-estimators.png?raw=true"/>
 Fine-tuning Random Forest Classifier against n_estimators.
 
 5. Hyperparameter Tuning:
@@ -73,7 +73,7 @@ Fine-tuning Random Forest Classifier against n_estimators.
 
 7. Cross-Validation: Using the best parameters obtained from the fine-tuning process, we created a final Random Forest model and evaluated its performance using cross-validation for accuracy, precision, recall, and F1-score.
 
-<img src="images/RF-CV-Metrics.png?raw=true"/>
+<img src="images/dnd-rf-cv-metrics.png?raw=true"/>
 
 The mean scores of accuracy, precision, recall, and F1-score were as follows:
 
