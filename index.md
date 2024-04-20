@@ -2,7 +2,6 @@
 
 ### Projects
 **Data Science & Machine Learning**
-- [Airbnb Price Regression using Tensorflow Neural Network](/#airbnb)
 - [Smoker Status Classification with Gradient Boosting Trees and Ensemble Stacking](/#smoker)
 - [Dungeons & Dragons Race Classification using Scikit-learn](/#dnd)
 
