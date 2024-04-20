@@ -12,17 +12,6 @@
 
 ---
 
-<div id='airbnb'></div>
-
-### Data Science & Machine Learning
-
-[Airbnb Price Regression using Tensorflow Neural Network](/airbnb-price-regression.md)
-- Created a Neural Network to predict Airbnb stay prices.
-- Explored Tensorflow documentation for optimal loading of Pandas DataFrame data.
-- Normalised numerical data for efficent model processing and learning.
-
-<img src="images/airbnb-model.png?raw=true"/>
-
 <div id='smoker'></div>
 
 ---
@@ -37,6 +26,7 @@
 - Combined Catboost, XGBoost, LightGBM and Random Forest Classifier models to create a balanced ensemble model.
 - Utilized Tensorflow 2.0 Sequential Neural Network for improved ensemble weights.
 - Achieved a final score of 0.87583 (compared with best of 0.87946), placing 283 out of 1910 submisions.
+  
 <div id='dnd'></div>
 
 ---
