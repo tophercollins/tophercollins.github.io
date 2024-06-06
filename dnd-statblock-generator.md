@@ -23,6 +23,10 @@ The processed data for fine tuning can be found at [D&D Monster Hugging Face Dat
 * Trained our model and tested on simple prompts (with no specific) and targetted prompts (requiring specific info included in statblock).
 * Saved our model locally and pushed LoRA adapters to Hugging Face.
 
+<img src="images/dnd-statblock-generator-1.png"/>
+
 ## Conclusion
 
 Our output results consistently followed the desired output format. As such, we could easily take the model outputs and process them for further needs, such database storage or provding directly to a user. There were some signs of overfitting, which is understanble with our very small fine-tuning dataset. In particular the 'creativity' of the model seems limited, often producing a name that is extremely uniform and basic.
+
+Model LoRA adaptors can be found and used [here](https://huggingface.co/tophercollins/dnd_statblock_generator_lora_model)
