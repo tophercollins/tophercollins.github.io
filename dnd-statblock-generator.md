@@ -2,13 +2,13 @@
 
 ## Aim
 
-This project aims to use the Llama3-8B to create a fine-tuned task specific model to create Dungeons & Dragons Statblock in a repeatable style and format.
+This project aims to use the Llama 3 8-billion parameters LLM to create a fine-tuned task specific model for creating Dungeons & Dragons monster statblocks in a structured style and format.
 
 ## Data
 
-The original monster data can be found at [D&D Monster Spreadsheet]([https://docs.google.com/spreadsheets/d/16-zbSZFj-k4uYxgu1nFkKyhEG8rE2ZkO5oiQX3tLMkE/edit?usp=sharing])
+The original monster data can be found at [D&D Monster Spreadsheet](https://docs.google.com/spreadsheets/d/16-zbSZFj-k4uYxgu1nFkKyhEG8rE2ZkO5oiQX3tLMkE/edit?usp=sharing)
 
-The processed data for fine tuning can be found at [D&D Monster Hugging Face Dataset]([https://huggingface.co/datasets/tophercollins/dnd_monster_sample])
+The processed data for fine tuning can be found at [D&D Monster Hugging Face Dataset](https://huggingface.co/datasets/tophercollins/dnd_monster_sample)
 
 
 ## Process
