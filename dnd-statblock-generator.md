@@ -2,7 +2,7 @@
 
 ## Aim
 
-This project aims to use the Llama 3 8-billion parameters LLM to create a fine-tuned task specific model for creating Dungeons & Dragons monster statblocks in a structured style and format.
+This project aims to use the Llama 3 8B LLM to create a fine-tuned task specific model for creating Dungeons & Dragons monster statblocks in a structured style and format.
 
 ## Data
 
