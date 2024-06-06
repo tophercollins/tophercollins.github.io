@@ -2,13 +2,25 @@
 
 ### Projects
 **Data Science & Machine Learning**
+- [Dungeons & Dragons Statblock Generator](/#dnd-statblock-generator)
 - [Smoker Status Classification with Gradient Boosting Trees and Ensemble Stacking](/#smoker)
-- [Dungeons & Dragons Race Classification using Scikit-learn](/#dnd)
+- [Dungeons & Dragons Race Classification using Scikit-learn](/#dnd-race-classification)
 
 **Other**
 - [DnDwithToph Exploratory Data Analysis](/#eda)
 - [DnDwithToph.com](/#dndwithtoph)
 - [Zombie Survival Game](/#zombie)
+
+---
+
+<div id='dnd-statblock-generator'></div>
+
+---
+
+[Dungeons & Dragons Statblock Generator](/dnd-statblock-generator.md)
+
+- Created a **Fine-tuned** task specific model using Llama3 and Unsloth to create Dungeons & Dragons Statblocks.
+- Implented online usability through Hugging Face for Training Dataset and LoRA Fine-tuned Adaptors.
 
 ---
 
@@ -27,7 +39,7 @@
 - Utilized Tensorflow 2.0 Sequential Neural Network for improved ensemble weights.
 - Achieved a final score of 0.87583 (compared with best of 0.87946), placing 283 out of 1910 submisions.
   
-<div id='dnd'></div>
+<div id='dnd-race-classification'></div>
 
 ---
 
