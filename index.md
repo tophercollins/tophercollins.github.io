@@ -21,6 +21,7 @@
 
 - Created a **Fine-tuned** task specific model using Llama3 and Unsloth to create Dungeons & Dragons Statblocks.
 - Implented online usability through Hugging Face for Training Dataset and LoRA Fine-tuned Adaptors.
+<img src="images/dnd-statblock-generator-1.png"/>
 
 ---
 
