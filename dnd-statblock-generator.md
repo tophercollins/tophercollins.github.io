@@ -1,4 +1,4 @@
-# Dungeons & Dragons Race Classification > [Go to project](https://github.com/tophercollins/dnd-statblock-generator)
+# Dungeons & Dragons Statblock Generator > [Go to project](https://github.com/tophercollins/dnd-statblock-generator)
 
 ## Aim
 
