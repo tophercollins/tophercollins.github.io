@@ -2,7 +2,7 @@
 
 ### Projects
 **Data Science & Machine Learning**
-- [Dungeons & Dragons Statblock Generator](/#dnd-statblock-generator)
+- [Llama 3 Fine-tuning for Dungeons & Dragons Statblock Generator](/#dnd-statblock-generator)
 - [Smoker Status Classification with Gradient Boosting Trees and Ensemble Stacking](/#smoker)
 - [Dungeons & Dragons Race Classification using Scikit-learn](/#dnd-race-classification)
 
@@ -17,7 +17,7 @@
 
 ---
 
-[Dungeons & Dragons Statblock Generator](/dnd-statblock-generator.md)
+[Llama 3 Fine-tuning for Dungeons & Dragons Statblock Generator](/dnd-statblock-generator.md)
 
 - Created a **Fine-tuned** task specific model using Llama3 and Unsloth to create Dungeons & Dragons Statblocks.
 - Implented online usability through Hugging Face for Training Dataset and LoRA Fine-tuned Adaptors.
