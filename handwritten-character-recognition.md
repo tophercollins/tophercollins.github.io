@@ -13,10 +13,15 @@ The EMNIST data can be found at [EMNIST](https://www.tensorflow.org/datasets/cat
 ## Process
 
 * Loaded data through the TFDS API using builder.as_data_source() as data is in ArrayDataSource format.
-* Filtered data by Target Classes and creates Strikethrough Classes.
+* Filtered data by Target Classes and creates artificially constructure Strikethrough Classes.
+<img src="images/character-display-grid-normal.png?raw=true"/>
+<img src="images/character-display-grid-strikethrough.png?raw=true"/>
 * Prepared Data for training including normalizing images and one hot encoding labels.
 * Viewed samples to verify clean data.
 * Create a baseline model and performed a series of experiments, including Batch Normalization, Dropout, and adding complexity to avoids overfitting.
+<img src="images/character-plot-1.png?raw=true"/>
+<img src="images/character-plot-2.png?raw=true"/>
+<img src="images/character-plot-3.png?raw=true"/>
 * Used Data Augmentation on final model to mimic real world data.
 * Produced a final model based on experiments and tested on data.
 
