@@ -4,6 +4,7 @@
 **Data Science & Machine Learning**
 - [Llama 3 Fine-tuning for Dungeons & Dragons Statblock Generator](/#dnd-statblock-generator)
 - [Smoker Status Classification with Gradient Boosting Trees and Ensemble Stacking](/#smoker)
+- [Handwritten Character Recognition Computer Vision](/#handwritten-character-recognition)
 - [Dungeons & Dragons Race Classification using Scikit-learn](/#dnd-race-classification)
 
 **Other**
@@ -40,6 +41,21 @@
 - Utilized Tensorflow 2.0 Sequential Neural Network for improved ensemble weights.
 - Achieved a final score of 0.87583 (compared with best of 0.87946), placing 283 out of 1910 submisions.
   
+<div id='handwritten-character-recogniton'></div>
+
+---
+
+[Handwritten Character Recognition Computer Vision](/handwritten-character-recognition.md)
+
+- Created a Convolutional Neural Network in TensorFlow to predict the class of a handwritten character.
+- Artificially constructured characters with a strikethrough.
+<img src="images/character-display-grid-normal.png?raw=true"/>
+<img src="images/character-display-grid-strikethrough.png?raw=true"/>
+
+- Used measures to avoid overfitting a Computer Vison task, such as Dropout, Batch Normalization, Kernal Regulization, and Data Augmentation.
+- Achieved a 99% prediction accuracy on the test data.
+- Model deployed for real world application of Education Scoresheet recogniton.
+
 <div id='dnd-race-classification'></div>
 
 ---
