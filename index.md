@@ -41,7 +41,7 @@
 - Utilized Tensorflow 2.0 Sequential Neural Network for improved ensemble weights.
 - Achieved a final score of 0.87583 (compared with best of 0.87946), placing 283 out of 1910 submisions.
   
-<div id='handwritten-character-recogniton'></div>
+<div id='handwritten-character-recognition'></div>
 
 ---
 
