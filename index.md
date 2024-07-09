@@ -2,50 +2,25 @@
 
 ### Projects
 **Data Science & Machine Learning**
-- [Llama 3 Fine-tuning for Dungeons & Dragons Statblock Generator](/#dnd-statblock-generator)
-- [Smoker Status Classification with Gradient Boosting Trees and Ensemble Stacking](/#smoker)
-- [Handwritten Character Recognition Computer Vision](/#handwritten-character-recognition)
+- [Handwritten Character Recognition/Automated Scorecard Processing](/#handwritten-character-recognition)
+- [Smoker vs. Non-Smoker Classification](/#smoker-classification)
+- [Fine-tuning LLM for RPG Statblocks](/#rpg-statblock-generator)
+- [Electric Vehicle kWh Consumption Forecasting](#ev-kwh-consumption-forecasting)
+- [Bitcoin Price Forecasting](#bitcoin-price-forecasting)
+- [Structured Medical Text Classification with NLP](#medical-text-classification)
+- [Transfer Learning in Food Image Classification](#food-image-classification)
 - [Dungeons & Dragons Race Classification using Scikit-learn](/#dnd-race-classification)
 
 **Other**
-- [DnDwithToph Exploratory Data Analysis](/#eda)
+- [DnDwithToph Exploratory Data Analysis](/#dndwithtoph-eda)
 - [DnDwithToph.com](/#dndwithtoph)
 - [Zombie Survival Game](/#zombie)
 
----
-
-<div id='dnd-statblock-generator'></div>
-
----
-
-[Llama 3 Fine-tuning for Dungeons & Dragons Statblock Generator](/dnd-statblock-generator.md)
-
-- Created a **Fine-tuned** task specific model using Llama3 and Unsloth to create Dungeons & Dragons Statblocks.
-- Implented online usability through Hugging Face for Training Dataset and LoRA Fine-tuned Adaptors.
-<img src="images/dnd-statblock-generator-1.png"/>
-
----
-
-<div id='smoker'></div>
-
----
-
-[Smoker Status Binary Classification with Gradient Boosting Trees and Ensemble Stacking](/smoker-binary-classification.md)
-
-- Created a Neural Network Stacking Classifier using Scikeras KerasClassifier and Scikit-learn's StackingClassifier.
-- Used analysis of feature outliers and distrubtion to improve feature engineering.
-<img src="images/smoker-outlier-distribution.png?raw=true"/>
-<img src="images/smoker-outlier-distribution-2.png?raw=true"/>
-
-- Combined Catboost, XGBoost, LightGBM and Random Forest Classifier models to create a balanced ensemble model.
-- Utilized Tensorflow 2.0 Sequential Neural Network for improved ensemble weights.
-- Achieved a final score of 0.87583 (compared with best of 0.87946), placing 283 out of 1910 submisions.
-  
 <div id='handwritten-character-recognition'></div>
 
 ---
 
-[Handwritten Character Recognition Computer Vision](/handwritten-character-recognition.md)
+[Handwritten Character Recognition/Automated Scorecard Processing](/handwritten-character-recognition.md)
 
 - Created a Convolutional Neural Network in TensorFlow to predict the class of a handwritten character.
 - Artificially constructured characters with a strikethrough.
@@ -55,6 +30,64 @@
 - Used measures to avoid overfitting a Computer Vison task, such as Dropout, Batch Normalization, Kernal Regulization, and Data Augmentation.
 - Achieved a 99% prediction accuracy on the test data.
 - Model deployed for real world application of Education Scoresheet recogniton.
+
+<div id='smoker-classification'></div>
+
+---
+
+[Smoker vs. Non-Smoker Classification](/smoker-classification.md)
+
+- Created a Neural Network Stacking Classifier using Scikeras KerasClassifier and Scikit-learn's StackingClassifier.
+- Used analysis of feature outliers and distrubtion to improve feature engineering.
+<img src="images/smoker-outlier-distribution.png?raw=true"/>
+<img src="images/smoker-outlier-distribution-2.png?raw=true"/>
+
+- Combined Catboost, XGBoost, LightGBM and Random Forest Classifier models to create a balanced ensemble model.
+- Utilized Tensorflow 2.0 Sequential Neural Network for improved ensemble weights.
+- Achieved a final score of 0.87583 (compared with best of 0.87946), placing 283 out of 1910 submisions.
+
+<div id='rpg-statblock-generator'></div>
+
+---
+
+[Fine-tuning LLM for RPG Statblocks](/rpg-statblock-generator.md)
+
+- Created a **Fine-tuned** task specific model using Llama3 and Unsloth to create Dungeons & Dragons statblocks and game elements.
+- Deployed on Hugging Face for accesible Training Dataset and LoRA Fine-tuned Adaptors.
+<img src="images/dnd-statblock-generator-1.png"/>
+
+<div id='ev-kwh-consumption-forecasting'></div>
+
+---
+
+[Electric Vehicle kWh Consumption Forecasting](/ev-kwh-consumption-forecasting.md)
+
+- Explored forecasting daily kWh consumption for a workplace EV charging program and implemented naive, neural network, and LightGBM prediction models.
+
+<div id='bitcoin-price-forecasting'></div>
+
+---
+
+Bitcoin Price Forecasting
+
+- Implemented time series models (Conv1D, Bidirectional LSTM, GRU) for Bitcoin price forecasting, using metrics (Loss, MAE, MSE) to assess performance.
+
+
+<div id='medical-text-classification'></div>
+
+---
+
+Structured Medical Text Classification with NLP
+
+- Developed a multi-class NLP model utilizing Universal Sentence Encoder, Conv1D character embedding, and text position features to classify medical literature sentences, enhancing readability with structured paragraphs based on classification headings.
+
+<div id='food-image-classification'></div>
+
+---
+
+Transfer Learning in Food Image Classification
+
+- Developed computer vision model on Food101 dataset utilizing EfficientNetV2 transfer learning to achieve over 80% accuracy in categorizing 101 types of food images.
 
 <div id='dnd-race-classification'></div>
 
