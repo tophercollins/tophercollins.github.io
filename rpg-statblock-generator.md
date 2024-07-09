@@ -1,4 +1,4 @@
-# Dungeons & Dragons Statblock Generator > [Go to project](https://github.com/tophercollins/dnd-statblock-generator)
+# Fine-tuning LLM for RPG Statblocks > [Go to project](https://github.com/tophercollins/dnd-statblock-generator)
 
 ## Aim
 
