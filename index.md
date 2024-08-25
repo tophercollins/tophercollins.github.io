@@ -2,6 +2,7 @@
 
 ### Projects
 **Data Science & Machine Learning**
+- [EIFO Data Extraction](/#eifo-data-extraction)
 - [Handwritten Character Recognition/Automated Scorecard Processing](/#handwritten-character-recognition)
 - [Smoker vs. Non-Smoker Classification](/#smoker-classification)
 - [Fine-tuning LLM for RPG Statblocks](/#rpg-statblock-generator)
@@ -15,6 +16,17 @@
 - [DnDwithToph Exploratory Data Analysis](/#dndwithtoph-eda)
 - [DnDwithToph.com](/#dndwithtoph)
 - [Zombie Survival Game](/#zombie)
+
+<div id='eifo-data-extraction'></div>
+
+---
+
+[EIFO Data Extraction/Web Scraping](/eifo-data-extraction.md)
+
+- Built a Python script to extract country risk and cover polcies from EIFO website.
+- Used BeautifulSoup and Selenium (for dynamic website features) for data selection and extraction.
+- Cleaned and transformed data in Pandas.
+- Exported data to Excel output sheet.
 
 <div id='handwritten-character-recognition'></div>
 
