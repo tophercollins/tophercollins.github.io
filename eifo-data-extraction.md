@@ -1,87 +1,36 @@
-# Dungeons & Dragons Race Classification > [Go to project](https://github.com/tophercollins/dnd-race-classification)
+# EIFO Data Extraction/Web Scraping > [Go to project](https://github.com/tophercollins/eifo-data-extraction)
 
-This project involves using Scikit-learn and Pandas to create a machine learning model for a multiple classification problem aimed at predicting the race of a Dungeons & Dragons character based on their ability scores and general features.
+This project involves building a Python script to extract country risk and cover policies from the EIFO website. The script utilizes BeautifulSoup for static HTML parsing and Selenium for handling dynamic website elements, with the data being cleaned and transformed in Pandas before exporting to an Excel output sheet.
 
 ## Problem Definition
-
-This project aims to predict the race of Dungeons & Dragons characters based on their ability scores and other features. The goal is to create a machine learning model that can accurately classify the race of a character.
+The objective of this project is to automate the extraction of country risk and cover policies data from the EIFO website, which involves navigating dynamic web content. The extracted data is then cleaned, transformed, and stored in a structured format for further analysis or reporting.
 
 ## Data
-
-The original dataset was obtained from Kaggle, provided by Andrew Abeles: [DND Character Stats Dataset](https://www.kaggle.com/datasets/andrewabeles/dnd-stats).
+The data extracted includes various country-specific risk factors and cover policies available on the EIFO website. The web pages were dynamically loaded, requiring the use of Selenium in conjunction with BeautifulSoup for effective data retrieval.
 
 ## Evaluation
-
-**Aim**
-To achieve a classification accuracy that matches or surpasses 51.8%, the model accuracy from Andrew Abeles's project (KNN tuned model).
+Aim To successfully extract and structure the data in a manner that is suitable for further analysis or reporting, ensuring completeness and accuracy of the extracted data.
 
 ### Features
-The dataset contains 10,000 samples, each with 9 input features and 1 target feature.
+The dataset created from the extraction process contains multiple columns representing various attributes of the country risk and cover policies.
 
-**Input Features:**
-- Height (inches)
-- Weight (lbs)
-- Speed (ft.)
-- Strength
-- Dexterity
-- Constitution
-- Wisdom
-- Intelligence
-- Charisma
-
-**Target Variable:**
-- Race (dragonborn, dwarf, elf, gnome, half-elf, half-orc, halfling, human, tiefling)
-
-<img src="images/dnd-target-variable-spread.png?raw=true"/>
+**Extracted Features:**
+* Country Name
+* Risk Category
+* Cover Policy Type
+* Additional Notes (if available)
 
 ### Exploratory Data Analysis
+Before transformation, the data was reviewed to ensure the correctness and completeness of the extracted information. Pandas was used to clean and organize the data.
 
-Correlation matrix to visualize the relationships between features.
+## Process
+Web Scraping Setup: Initialized Selenium WebDriver to handle the dynamic loading of web pages on the EIFO site. Used BeautifulSoup for parsing the HTML content and extracting relevant data points.
 
-<img src="images/dnd-correlation-matrix.png?raw=true"/>
+Data Extraction: Implemented a scraping routine to iterate through the necessary web pages and extract relevant data points for each country.
 
-The correlation heatmap showed strong relationships between height, weight, and speed, indicating their significance in predicting the character's race.
+Data Cleaning and Transformation: Loaded the extracted data into a Pandas DataFrame. Performed cleaning operations such as removing duplicates, handling missing values, and standardizing text fields.
 
-Further comparison of height and weight features using a scatter plot.
-
-<img src="images/dnd-height-vs-weight.png?raw=true"/>
-
-The scatter plot revealed trends in three clear groups/clusters of character sizes: small, medium, and large.
-
-## Modelling
-
-1. Data Preprocessing: The dataset was loaded into a Pandas DataFrame. There were no missing values.
-
-2. Exploratory Data Analysis (EDA): Data visualization was performed to understand feature correlations and distributions.
-
-3. Model Selection: Several machine learning models were evaluated, including Support Vector Classifier (SVC), K-Nearest Neighbors (KNN), Random Forest Classifier, AdaBoost Classifier, and Logistic Regression.
-
-<img src="images/dnd-model-baseline-comparison.png?raw=true"/>
-
-Among the baseline comparison of models, Random Forest and Logistic Regression demonstrated the highest accuracy scores.
-
-4. Model Evaluation: Initial model scores were computed and compared. Random Forest, Logistic Regression and SVC performed similarly.
-
-<img src="images/dnd-rf-n-estimators.png?raw=true"/>
-Fine-tuning Random Forest Classifier against n_estimators.
-
-5. Hyperparameter Tuning:
-   - Random Forest: Randomized and Grid Search CV were used to optimize hyperparameters.
-   - Logistic Regression: Randomized and Grid Search CV were used to optimize hyperparameters.
-
-6. Model Comparison: The best Random Forest model was selected based on the hyperparameters obtained from Grid Search CV.
-
-7. Cross-Validation: Using the best parameters obtained from the fine-tuning process, we created a final Random Forest model and evaluated its performance using cross-validation for accuracy, precision, recall, and F1-score.
-
-<img src="images/dnd-rf-cv-metrics.png?raw=true"/>
-
-The mean scores of accuracy, precision, recall, and F1-score were as follows:
-
-Accuracy: 0.6748
-Precision: 0.6609
-Recall: 0.6762
-F1-score: 0.6690
+Data Export: The cleaned and organized data was exported into an Excel file, ensuring it is in a format ready for analysis or reporting.
 
 ## Conclusion
-
-The project involved building and tuning a machine learning model to predict the race of a DND character based on their ability scores and general features. The Random Forest model achieved an accuracy of around 67.25% after hyperparameter tuning and cross-validation, improving upon the previous accuracy of 51.8% found in the orignal KNN model from the Dataset.
+This project successfully automated the extraction and organization of country risk and cover policies from the EIFO website. The final output was a structured Excel file, ready for further analysis. This approach significantly reduces the manual effort required to gather and process this information, ensuring up-to-date data availability.
