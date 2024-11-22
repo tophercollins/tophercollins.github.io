@@ -28,6 +28,11 @@
 - Conducted hypothesis testing with statistical models, including Poisson Means Tests and Linear Regression, to assess the relationship between red cards and goal-scoring.
 - Visualized distribution patterns and event correlations using Matplotlib and Seaborn.
 
+<img src="images/rcg_red_card_frequency.png?raw=true"/>
+<img src="images/rcd_per_minute.png?raw=true"/>
+<img src="images/rcg_linear_regression.png?raw=true"/>
+<img src="images/rcg_goal_vs_poisson.png?raw=true"/>
+
 <div id='eifo-data-extraction'></div>
 
 ---
