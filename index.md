@@ -1,7 +1,8 @@
 ## Portfolio
 
 ### Projects
-**Data Science & Machine Learning**
+**Data Analysis & Data Science**
+- [Red Card / Goal Exploratory Data Analysis](/#red-card-goal-analysis)
 - [EIFO Data Extraction](/#eifo-data-extraction)
 - [Handwritten Character Recognition/Automated Scorecard Processing](/#handwritten-character-recognition)
 - [Smoker vs. Non-Smoker Classification](/#smoker-classification)
@@ -16,6 +17,16 @@
 - [DnDwithToph Exploratory Data Analysis](/#dndwithtoph-eda)
 - [DnDwithToph.com](/#dndwithtoph)
 - [Zombie Survival Game](/#zombie)
+
+<div id='red-card-goal-analysis'></div>
+
+---
+
+[Red Card / Goal Exploratory Data Analysis](/red-card-goal-analysis.md)
+
+- Processed and analyzed data across 20,000 European Football matches, using Pandas for data cleaning, feature engineering and data analysis.
+- Conducted hypothesis testing with statistical models, including Poisson Means Tests and Linear Regression, to assess the relationship between red cards and goal-scoring.
+- Visualized distribution patterns and event correlations using Matplotlib and Seaborn.
 
 <div id='eifo-data-extraction'></div>
 
