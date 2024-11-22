@@ -59,3 +59,8 @@ Derived features included:
 
 ## Conclusion  
 This analysis demonstrated a nuanced relationship between red cards and goal-scoring, with evidence suggesting that red cards influence short-term scoring dynamics. While no statistically significant overall impact was found, timing plays a critical role. These findings offer actionable insights for football strategy and in-play betting scenarios.
+
+<img src="images/rcg_red_card_frequency.png?raw=true"/>
+<img src="images/rcd_per_minute.png?raw=true"/>
+<img src="images/rcg_linear_regression.png?raw=true"/>
+<img src="images/rcg_goal_vs_poisson.png?raw=true"/>
