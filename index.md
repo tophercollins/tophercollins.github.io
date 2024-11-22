@@ -11,11 +11,12 @@
 - [Bitcoin Price Forecasting](#bitcoin-price-forecasting)
 - [Structured Medical Text Classification with NLP](#medical-text-classification)
 - [Transfer Learning in Food Image Classification](#food-image-classification)
-- [Dungeons & Dragons Race Classification using Scikit-learn](/#dnd-race-classification)
+
 
 **Other**
-- [DnDwithToph Exploratory Data Analysis](/#dndwithtoph-eda)
 - [DnDwithToph.com](/#dndwithtoph)
+- [DnDwithToph Exploratory Data Analysis](/#dndwithtoph-eda)
+- [Dungeons & Dragons Race Classification using Scikit-learn](/#dnd-race-classification)
 - [Zombie Survival Game](/#zombie)
 
 <div id='red-card-goal-analysis'></div>
@@ -117,6 +118,31 @@ Transfer Learning in Food Image Classification
 
 - Developed computer vision model on Food101 dataset utilizing EfficientNetV2 transfer learning to achieve over 80% accuracy in categorizing 101 types of food images.
 
+---
+
+<div id='dndwithtoph'></div>
+
+### Other
+
+[DnDwithToph.com](https://dev.dndwithtoph.com/)
+- **Flask** framework with **SQLAlchemy** database management
+- User Authentication and Session Managment
+- User-Generated Content following **CRUD** principles
+- Production Server Deployment with **Gunicorn** and **Git** Version Control
+  
+<img src="images/dndwithtoph.png?raw=true"/>
+
+<div id='eda'></div>
+
+---
+
+[DnD with Toph Exploratory Data Analysis](/dndwithtoph-eda.md)
+- A financial assessment and report for 'DnD with Toph', an online Dungeons & Dragons adventure service, using Python and **Pandas** to clean, transform, and analyze the data.
+- Used data to observe growth and profit trends to optimise future scheduling and projects.
+- Skills include **Data Manipulation & Analysis** using Python & Pandas and **Data Visualization** with **Matplotlib**.
+
+<img src="images/eda-optimal-timeslot.png?raw=true"/>
+
 <div id='dnd-race-classification'></div>
 
 ---
@@ -133,29 +159,6 @@ Transfer Learning in Food Image Classification
 <img src="images/dnd-rf-n-estimators.png?raw=true"/>
 <img src="images/dnd-rf-cv-metrics.png?raw=true"/>
 
----
-
-<div id='eda'></div>
-
-### Other
-
-[DnD with Toph Exploratory Data Analysis](/dndwithtoph-eda.md)
-- A financial assessment and report for 'DnD with Toph', an online Dungeons & Dragons adventure service, using Python and **Pandas** to clean, transform, and analyze the data.
-- Used data to observe growth and profit trends to optimise future scheduling and projects.
-- Skills include **Data Manipulation & Analysis** using Python & Pandas and **Data Visualization** with **Matplotlib**.
-
-<img src="images/eda-optimal-timeslot.png?raw=true"/>
-<div id='dndwithtoph'></div>
-
----
-
-[DnDwithToph.com](https://dev.dndwithtoph.com/)
-- **Flask** framework with **SQLAlchemy** database management
-- User Authentication and Session Managment
-- User-Generated Content following **CRUD** principles
-- Production Server Deployment with **Gunicorn** and **Git** Version Control
-  
-<img src="images/dndwithtoph.png?raw=true"/>
 <div id='zombie'></div>
 
 ---
