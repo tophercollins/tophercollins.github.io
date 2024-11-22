@@ -1,4 +1,4 @@
-# Red Card and Goal Analysis > [Go to project]([https://github.com/tophercollins/eifo-data-extraction](https://github.com/tophercollins/red_card_goal_analysis/])
+# Red Card and Goal Analysis > [Go to project](https://github.com/tophercollins/red_card_goal_analysis/)
 
 This project involved analyzing the relationship between red cards and goal-scoring in football matches using Python in Jupyter Notebooks. The analysis explored trends and patterns in match outcomes, leveraging statistical modeling and data visualization to uncover insights into the impact of red cards on goal-scoring dynamics.
 
