@@ -41,6 +41,10 @@ A web-first app for tabletop-RPG Game Masters that **records a session, transcri
 
 > Flutter · Dart · Supabase · PostgreSQL · Deno · TypeScript · AssemblyAI · Google Gemini · Next.js · Sentry · Paddle
 
+<img src="images/historycheck-historian.png?raw=true" alt="History Check app: the AI Historian answering a campaign question alongside auto-extracted NPCs, locations and items"/>
+
+*The in-app AI "Historian" answering a question about the campaign, beside the world database of auto-extracted entities.*
+
 <div id='analytics-engineering'></div>
 
 ---
