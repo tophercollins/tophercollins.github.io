@@ -1,9 +1,9 @@
 ## Portfolio
 
-I'm an **analytics engineer and full-stack AI product builder**. Professionally I build production data platforms — **dbt** transformation layers, **Airflow / Google Cloud Composer** orchestration, **BigQuery** warehousing and custom REST-API integrations across a couple of dozen advertising-platform sources. Alongside that I design and ship full-stack, AI-powered products end to end. I came up through data science and machine learning, so those projects are here too.
+I'm an **analytics engineer and full-stack AI product builder**. Professionally I build production data platforms - **dbt** transformation layers, **Airflow / Google Cloud Composer** orchestration, **BigQuery** warehousing and custom REST-API integrations across a couple of dozen advertising-platform sources. Alongside that I design and ship full-stack, AI-powered products end to end. I came up through data science and machine learning, so those projects are here too.
 
 ### Featured product
-- [History Check — record, transcribe & AI-track your RPG campaign](#history-check)
+- [History Check - record, transcribe & AI-track your RPG campaign](#history-check)
 
 ### Products & Engineering
 - [Analytics Engineering (dbt · Airflow · BigQuery)](#analytics-engineering)
@@ -29,14 +29,14 @@ I'm an **analytics engineer and full-stack AI product builder**. Professionally 
 
 ## Featured product
 
-### [History Check](https://historycheck.app) — *Your campaign never forgets.*
+### [History Check](https://historycheck.app) - *Your campaign never forgets.*
 
-A web-first app for tabletop-RPG Game Masters that **records a session, transcribes it, and uses AI to do the bookkeeping** — generating summaries and automatically extracting the NPCs, locations, items, monsters and organisations that came up, then tracking them across an entire campaign. Built solo, end to end.
+A web-first app for tabletop-RPG Game Masters that **records a session, transcribes it, and uses AI to do the bookkeeping** - generating summaries and automatically extracting the NPCs, locations, items, monsters and organisations that came up, then tracking them across an entire campaign. Built solo, end to end.
 
 - **Frontend:** **Flutter** web (Dart), **Riverpod** state management, `go_router`, responsive layout.
 - **Audio capture:** in-browser recording via the **MediaRecorder API** (Opus), chunked and uploaded incrementally so a GM can close the browser mid-session and lose nothing; crash/refresh recovery reconciles the local cache against cloud storage.
 - **Backend:** **Supabase / PostgreSQL** as the single source of truth via PostgREST, with **row-level security** enforcing a multi-user owner/viewer (GM/player) permission model, token-based invite links, and `SECURITY DEFINER` RPCs.
-- **AI pipeline:** a fully **server-side** pipeline on **Deno edge functions** — audio → **AssemblyAI** transcription (speaker diarization) → **Google Gemini** for structured (JSON-schema) summarisation and entity extraction. API keys stay server-side.
+- **AI pipeline:** a fully **server-side** pipeline on **Deno edge functions** - audio → **AssemblyAI** transcription (speaker diarization) → **Google Gemini** for structured (JSON-schema) summarisation and entity extraction. API keys stay server-side.
 - **Production engineering:** **Sentry** observability, Supabase **Realtime** status updates, a **Paddle/Stripe** billing & feature-gating layer, separate staging/production environments and deploy pipelines, and **1,100+ Flutter tests** plus ~70 edge-function test files.
 
 > Flutter · Dart · Supabase · PostgreSQL · Deno · TypeScript · AssemblyAI · Google Gemini · Next.js · Sentry · Paddle
@@ -47,7 +47,7 @@ A web-first app for tabletop-RPG Game Masters that **records a session, transcri
 
 ## Products & Engineering
 
-### Analytics Engineering — dbt · Airflow · BigQuery
+### Analytics Engineering - dbt · Airflow · BigQuery
 
 Professional work building and maintaining production data platforms on Google Cloud.
 
